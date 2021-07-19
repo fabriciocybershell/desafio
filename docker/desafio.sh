@@ -1,4 +1,4 @@
-#! /bin/bash
+uilt-in#! /bin/bash
 
 #-----------------------------------------------------------------------------------------------------------
 #	DATA:				18 de julho de 2021;
@@ -127,7 +127,7 @@ do
 		while :
 		do
 			#processamento dos dados para serem incluídos no banco de dados
-			# usando recursos uilt-in, sem grep, awk e afins
+			# usando recursos built-in, sem grep, awk e afins
 			[[ "${telefone_do_cliente// /}" =~ (\+[0-9]{2,3})?([0-9]{2})?([0-9]{9}) ]]
 			DDD="${BASH_REMATCH[2]}"
 			telefone="${BASH_REMATCH[3]}"
@@ -176,7 +176,7 @@ do
 
 			#usando recursos built-in para pesquisa, sem grep, awk, e outras ferramentas
 			while read linha;do
-				[[ "${linha}" = *"${busca}"* ]] && {
+				[[ "${linha,,}" = *"${busca,,}"* ]] && {
 					echo "${linha}"
 				}
 			done <<< ${resultado}
