@@ -7,8 +7,8 @@
 #	DESENVOLVIDO POR:		Fabrício Caetano;
 #	GITHUB:				https://github.com/fabriciocaetano;
 # 	CONTATO:			fabricio45726245@gmail.com;
-# 	AMBIENTE:			ubuntu 20.04 LTS
-# 	IDE/EDITOR:			sublime text
+# 	AMBIENTE:			ubuntu 20.04 LTS;
+# 	IDE/EDITOR:			sublime text;
 #
 #	DESCRIÇÃO:			simples algoritmo para a realização do desafio da ARCH Tech,
 #					que permite o cadastro, consulta e edição dos dados em um banco
